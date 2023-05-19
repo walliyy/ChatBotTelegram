@@ -112,7 +112,7 @@ def create_menu_tga_estoque():
     )
     return markup
 
-# Função para criar o markup do menu TGA Financeiro
+# Função para criar o markup do menu TGA Financeiro!
 def create_menu_tga_financeiro():
     markup = types.InlineKeyboardMarkup()
     markup.add(

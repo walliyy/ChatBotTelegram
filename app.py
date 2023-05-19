@@ -162,7 +162,7 @@ def create_menu_sofjava():
 #         )
 #         bot.send_message(chat_id=call.from_user.id, text='<b>Sr(a) {}</b>, escolha uma das opções abaixo:'.format(call.from_user.first_name), reply_markup=markup_opcoes)
 
-#     if call.data == 'img':
+#     if call.data == 'img': envio de imagem
 #         bot.send_chat_action(chat_id=call.from_user.id, action='typing')
 #         bot.send_photo(chat_id=call.from_user.id, photo=open('Tutoriais/Imagens/Teste.png', 'rb'),caption='Selecionado: Tutorial de tal coisa') 
 
